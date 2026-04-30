@@ -1,4 +1,4 @@
-# S&P 500 Stock Analysis: What 1.8 Million Trading Days Reveal About America's Top Companies
+# S&P 500 Stock Analysis: What 3500 Trading Days Reveal About America's Top Companies
 
 **Dataset:** S&P 500 Stocks Historical Data from Kaggle  
 **Tool:** Malloy + DuckDB  
