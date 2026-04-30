@@ -29,7 +29,7 @@ names — most people have never heard of them. Yet they quietly sit at the
 top of the S&P 500 by price. The stocks that dominate financial news are 
 not always the most expensive ones.
 
-![Top 10 Highest Average Stock Prices](Highest_Prices.png)
+![Top 10 Highest Average Stock Prices]((screenshots/Highest_Prices.png)
 
 ### 2. The Cheapest Stocks Are Not The Weakest
 The lowest average closing prices included NVDA (Nvidia) at just $13.81, 
@@ -46,7 +46,7 @@ to highest point ever. TDG followed at $1,395 and NFLX at $929. These
 stocks made investors either very rich or very poor depending entirely 
 on when they bought in. High price does not mean stable price.
 
-![Biggest Price Swings](price_swings.png)
+![Biggest Price Swings]((screenshots/top10_prices.png)
 
 ### 4. NVDA — The Most Surprising Finding In The Entire Dataset
 The single most interesting discovery was Nvidia. It had one of the 
