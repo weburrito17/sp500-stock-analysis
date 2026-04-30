@@ -60,6 +60,7 @@ This tells a remarkable story — investors were buying Nvidia in massive
 volumes long before its price reflected how valuable it would become. 
 The market knew something the price tag did not.
 
+![Most Volatile Stocks](Screenshots/Total_Volume.png)
 
 ### 5. The Most Volatile Stocks Move Nearly $15 Per Day
 MTD topped the daily volatility list at $14.81 average daily price 
@@ -67,7 +68,7 @@ swing, followed by EQIX at $9.55 and TDG at $8.83. These stocks are
 not for nervous investors — their price can move more in a single day 
 than some stocks move in a month.
 
-![Most Volatile Stocks](Screenshots/Total_Volume.png)
+![Most Volatile Stocks](Screenshots/avg_daily_volt.png)
 
 ### 6. The Most Stable Stocks Are The Ones Nobody Talks About
 The most stable stocks with the lowest daily volatility were RF at 
