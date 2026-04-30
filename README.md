@@ -88,12 +88,59 @@ risk along the way.
 
 ---
 
-## 🗂️ Repo Structure
-
-
 Dataset source: [https://www.kaggle.com/datasets/your-dataset-link](https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks)
-
 
 ---
 
+## How To Run This Yourself
+
+1. Download the S&P 500 dataset from Kaggle
+2. Install the Malloy VS Code Extension
+3. Clone this repo
+4. Place `sp500_stocks.csv` in the same folder as `analysis.malloy`
+5. Open `analysis.malloy` in VS Code
+6. Click **Run** above any query
+
+---
+
+## So What — Who Would Care About This?
+
+Individual investors, financial analysts, and portfolio managers would find 
+these findings directly useful. The data shows that the most expensive stocks 
+are not always the most traded, and the cheapest stocks are not always the 
+weakest investments. These findings challenge some of the most common 
+assumptions people make when looking at the stock market.
+
+For everyday investors, the biggest takeaway is that price alone means nothing. 
+MTD sits at the top of the price list at $645 average but most people have 
+never heard of it. Meanwhile Nvidia was sitting at $13 for years while 
+investors were quietly buying it in record volumes — 497 million shares per 
+day on average. If you had looked at price alone you would have ignored Nvidia 
+completely. If you had looked at trading volume you might have noticed something 
+was happening before the rest of the world caught on.
+
+For financial analysts and portfolio managers this data raises an important 
+question about volatility versus stability. The most volatile stocks like MTD 
+and EQIX swung nearly $15 per day on average — meaning huge potential gains 
+but also huge potential losses depending on timing. The most stable stocks 
+like RF and AT&T barely moved at all. A smart portfolio strategy might 
+involve balancing both — stable low volatility stocks as a foundation with 
+high volume high growth stocks like Nvidia mixed in for upside.
+
+For stock market researchers and data scientists this analysis shows how 
+powerful even basic Malloy queries can be when applied to a dataset of 
+1.8 million rows. Patterns that would take hours to find manually in Excel 
+appeared instantly — like the fact that the most traded stock was also one 
+of the cheapest and most stable, which is a completely counterintuitive finding.
+
+Finally for students studying business or finance this project is a reminder 
+that the stocks that dominate the news are not always the ones dominating 
+the market. The S&P 500 is full of quiet winners that never make headlines. 
+Understanding how to read volume, volatility, and price range together tells 
+a much richer story than just looking at which stocks are trending on social 
+media. The next Nvidia is probably already in this dataset — trading at a 
+low price, moving stable, but with millions of shares changing hands every 
+single day.
+
+---
 *Analysis by Nicholas Granda | Built with Malloy | Data from Kaggle*
