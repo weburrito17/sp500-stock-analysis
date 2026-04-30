@@ -1,0 +1,154 @@
+source: stocks is duckdb.table('sp500_stocks.csv') extend {
+
+  measure: avg_close is Close.avg()
+  measure: total_volume is Volume.sum()
+  measure: max_high is High.max()
+  measure: min_low is Low.min()
+  measure: avg_open is Open.avg()
+  dimension: daily_volatility is High - Low
+  dimension: daily_move is Close - Open
+  measure: avg_daily_volatility is daily_volatility.avg()
+  measure: avg_daily_move is daily_move.avg()
+
+}
+
+run: stocks -> {
+  where: Close > 0
+  group_by: Symbol
+  aggregate: avg_close
+  order_by: avg_close desc
+  limit: 10
+}
+
+-- Query 2: Bottom 10 lowest average stock prices
+run: stocks -> {
+  where: Close > 0
+  group_by: Symbol
+  aggregate: avg_close
+  order_by: avg_close asc
+  limit: 10
+}
+
+-- Query 3: Which stocks moved the most (biggest gap between high and low)
+run: stocks -> {
+  where: High > 0 and Low > 0
+  group_by: Symbol
+  aggregate:
+    max_high
+    min_low
+    price_range is High.max() - Low.min()
+  order_by: price_range desc
+  limit: 10
+}
+
+-- Query 4: Most traded stocks by volume
+run: stocks -> {
+  where: Volume > 0
+  group_by: Symbol
+  aggregate: total_volume
+  order_by: total_volume desc
+  limit: 10
+}
+
+
+run: stocks -> {
+  where: High > 0 and Low > 0 and Close > 0
+  group_by: Symbol
+  aggregate: avg_daily_volatility
+  order_by: avg_daily_volatility desc
+  limit: 10
+}
+
+run: stocks -> {
+  where: Close > 0
+  group_by: Symbol
+  aggregate:
+    earliest_price is Close.min()
+    latest_price is Close.max()
+    growth is Close.max() - Close.min()
+  order_by: growth desc
+  limit: 10
+}
+
+run: stocks -> {
+  where: Close > 0
+  group_by: Symbol
+  aggregate:
+    earliest_price is Close.min()
+    latest_price is Close.max()
+    growth is Close.max() - Close.min()
+  order_by: growth asc
+  limit: 10
+}
+
+run: stocks -> {
+  where: Close > 0 and Open > 0
+  group_by: Symbol
+  aggregate: avg_daily_move
+  order_by: avg_daily_move desc
+  limit: 10
+}
+
+run: stocks -> {
+  where: Volume > 0
+  group_by: Symbol
+  aggregate:
+    avg_volume is Volume.avg()
+  order_by: avg_volume desc
+  limit: 10
+}
+
+run: stocks -> {
+  where: Close > 0 and Open > 0
+  group_by: Symbol
+  aggregate:
+    max_daily_move is daily_move.max()
+  order_by: max_daily_move desc
+  limit: 10
+}
+
+run: stocks -> {
+  where: High > 0 and Low > 0
+  group_by: Symbol
+  aggregate: avg_daily_volatility
+  order_by: avg_daily_volatility asc
+  limit: 10
+}
+
+
+# bar_chart
+run: stocks -> {
+  where: Close > 0
+  group_by: Symbol
+  aggregate: avg_close
+  order_by: avg_close desc
+  limit: 10
+}
+
+
+# bar_chart
+run: stocks -> {
+  where: Volume > 0
+  group_by: Symbol
+  aggregate: total_volume
+  order_by: total_volume desc
+  limit: 10
+}
+
+# bar_chart
+run: stocks -> {
+  where: High > 0 and Low > 0
+  group_by: Symbol
+  aggregate: avg_daily_volatility
+  order_by: avg_daily_volatility desc
+  limit: 10
+}
+
+# bar_chart
+run: stocks -> {
+  where: Close > 0
+  group_by: Symbol
+  aggregate: growth is Close.max() - Close.min()
+  order_by: growth desc
+  limit: 10
+}
