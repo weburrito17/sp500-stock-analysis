@@ -103,7 +103,7 @@ Dataset source: [https://www.kaggle.com/datasets/your-dataset-link](https://www.
 
 ---
 
-## So What — Who Would Care About This?
+## Who Would Care About This?
 
 Individual investors, financial analysts, and portfolio managers would find 
 these findings directly useful. The data shows that the most expensive stocks 
