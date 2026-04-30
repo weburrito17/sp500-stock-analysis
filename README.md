@@ -38,7 +38,7 @@ RF at $13.42, and HPE at $14.47. Seeing Nvidia on this list was shocking
 historically low average price tells the story of a company that grew 
 explosively before most people noticed.
 
-![Lowest Average Stock Prices](lowest_prices.png)
+![Lowest Average Stock Prices](Screenshots/Lowest_Changes.png)
 
 ### 3. The Biggest Price Swings Belong To The Same Names
 MTD had the largest price range of any stock at $1,608 from its lowest 
@@ -46,7 +46,7 @@ to highest point ever. TDG followed at $1,395 and NFLX at $929. These
 stocks made investors either very rich or very poor depending entirely 
 on when they bought in. High price does not mean stable price.
 
-![Biggest Price Swings]((screenshots/top10_prices.png)
+![Biggest Price Swings](Screenshots/Growth_Graph.png)
 
 ### 4. NVDA — The Most Surprising Finding In The Entire Dataset
 The single most interesting discovery was Nvidia. It had one of the 
@@ -60,7 +60,6 @@ This tells a remarkable story — investors were buying Nvidia in massive
 volumes long before its price reflected how valuable it would become. 
 The market knew something the price tag did not.
 
-![Most Traded Stocks](most_traded.png)
 
 ### 5. The Most Volatile Stocks Move Nearly $15 Per Day
 MTD topped the daily volatility list at $14.81 average daily price 
@@ -68,7 +67,7 @@ swing, followed by EQIX at $9.55 and TDG at $8.83. These stocks are
 not for nervous investors — their price can move more in a single day 
 than some stocks move in a month.
 
-![Most Volatile Stocks](most_volatile.png)
+![Most Volatile Stocks](Screenshots/Total_Volume.png)
 
 ### 6. The Most Stable Stocks Are The Ones Nobody Talks About
 The most stable stocks with the lowest daily volatility were RF at 
@@ -76,7 +75,6 @@ $0.358, T (AT&T) at $0.359, and HPE at $0.367. These stocks barely
 moved day to day. Interestingly NVDA also appeared on this list — 
 proving that high volume does not always mean high volatility.
 
-![Most Stable Stocks](most_stable.png)
 
 ### 7. The Stocks With The Most Growth
 The biggest overall growth from lowest to highest price was led by 
@@ -84,7 +82,7 @@ MTD at $1,608, TDG at $1,395, and NFLX at $929. These are the stocks
 that rewarded long term investors the most — but also carried the most 
 risk along the way.
 
-![Biggest Growth Stocks](growth.png)
+![Biggest Growth Stocks](Screenshots/Highest_Changes.png)
 
 ---
 
