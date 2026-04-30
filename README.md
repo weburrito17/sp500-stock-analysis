@@ -29,7 +29,7 @@ names — most people have never heard of them. Yet they quietly sit at the
 top of the S&P 500 by price. The stocks that dominate financial news are 
 not always the most expensive ones.
 
-![Top 10 Highest Average Stock Prices](top10_prices.png)
+![Top 10 Highest Average Stock Prices](Highest_Prices.png)
 
 ### 2. The Cheapest Stocks Are Not The Weakest
 The lowest average closing prices included NVDA (Nvidia) at just $13.81, 
