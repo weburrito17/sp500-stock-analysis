@@ -38,7 +38,7 @@ RF at $13.42, and HPE at $14.47. Seeing Nvidia on this list was shocking
 historically low average price tells the story of a company that grew 
 explosively before most people noticed.
 
-![Lowest Average Stock Prices](yes_ss.png)
+![Lowest Average Stock Prices](Cheapest_stock.png)
 
 ### 3. The Biggest Price Swings Belong To The Same Names
 MTD had the largest price range of any stock at $1,608 from its lowest 
