@@ -4,3 +4,8 @@ Analysis on the S&amp;P 500 and how the different stocks within it change the ov
 
 
 Dataset source: https://www.kaggle.com/datasets/your-dataset-link
+
+
+---
+
+*Analysis by Nicholas Granda | Built with Malloy | Data from Kaggle*
